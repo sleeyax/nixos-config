@@ -19,7 +19,8 @@
       ];
 
       input = {
-        kb_layout = "us";
+        kb_layout = "be,us";
+        kb_options ="grp:alt_shift_toggle";
         numlock_by_default = true;
         follow_mouse = 1;
         sensitivity = 0;
@@ -281,7 +282,7 @@
     };
 
     extraConfig = "
-      monitor=,preferred,auto,auto
+      monitor=,preferred,auto,1
 
       xwayland {
         force_zero_scaling = true
