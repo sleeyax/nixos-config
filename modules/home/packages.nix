@@ -48,6 +48,7 @@
     wget
     xdg-utils
     xxd
+    thefuck
     keepassxc                         # password manager
     teams-for-linux                   # Microsoft Teams
     globalprotect-openconnect         # GlobalProtect VPN

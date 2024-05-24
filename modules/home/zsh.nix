@@ -65,6 +65,10 @@
       piv = "python -m venv .venv";
       psv = "source .venv/bin/activate";
     };
+
+    initExtra = ''
+      eval $(thefuck --alias)
+    '';
   };
 
   programs.zoxide = {
