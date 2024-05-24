@@ -1,6 +1,7 @@
 { inputs, pkgs, ... }: 
 {
   home.packages = (with pkgs; [
+    inputs.alejandra.defaultPackage.${system}
     bitwise                           # cli tool for bit / hex manipulation
     eza                               # ls replacement
     entr                              # perform action when file change
@@ -16,7 +17,6 @@
     cinnamon.nemo-with-extensions     # file manager
     nitch                             # systhem fetch util
     nix-prefetch-github
-    prismlauncher                     # minecraft launcher
     ripgrep                           # grep replacement
     soundwireserver                   # pass audio to android phone
     todo                              # cli todo list
@@ -27,14 +27,6 @@
     gnome.zenity
     winetricks
     wineWowPackages.wayland
-
-    # C / C++
-    gcc
-    gnumake
-
-    # Python
-    python3
-
     bleachbit                         # cache cleaner
     cmatrix
     gparted                           # partition manager
@@ -54,6 +46,21 @@
     wget
     xdg-utils
     xxd
-    inputs.alejandra.defaultPackage.${system}
+    keepassxc                         # password manager
+    teams-for-linux                   # Microsoft Teams
+    globalprotect-openconnect         # GlobalProtect VPN
+    logseq                            # PKM
+    remmina                           # remote desktop client
+    mysql-workbench                   # MySQL client
+
+    # C / C++
+    gcc
+    gnumake
+
+    # Python
+    python3
+
+    # JS runtimes
+    nodejs_latest
   ]);
 }
