@@ -108,7 +108,7 @@
     };
     "custom/launcher"= {
         format= "";
-        on-click= "pkill wofi || wofi --show drun";
+        on-click= "wofi --show drun";
         on-click-right= "pkill wofi || wallpaper-picker"; 
         tooltip= "false";
     };
