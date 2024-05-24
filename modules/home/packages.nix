@@ -55,6 +55,7 @@
     logseq                            # PKM
     remmina                           # remote desktop client
     mysql-workbench                   # MySQL client
+    localsend                         # local file transfer
 
     # C / C++
     gcc
