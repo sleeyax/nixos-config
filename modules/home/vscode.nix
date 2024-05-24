@@ -48,6 +48,8 @@
       "workbench.activityBar.location" = "left";
       "workbench.statusBar.visible" = true;
       "workbench.layoutControl.enabled" = false;
+
+      "git.enableSmartCommit" = true;
     };
     # Keybindings
     keybindings = [
@@ -58,6 +60,14 @@
       {
         key = "alt+t";
         command = "workbench.action.terminal.toggleTerminal";
+      }
+      {
+        key = "alt+left";
+        command = "workbench.action.navigateBack";
+      }
+      {
+        key = "alt+right";
+        command = "workbench.action.navigateForward";
       }
     ];
   };
