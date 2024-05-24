@@ -50,6 +50,7 @@
       "workbench.layoutControl.enabled" = false;
 
       "git.enableSmartCommit" = true;
+      "git.confirmSync" = false;
     };
     # Keybindings
     keybindings = [
