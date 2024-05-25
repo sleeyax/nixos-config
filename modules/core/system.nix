@@ -29,5 +29,8 @@
   time.timeZone = "Europe/Paris";
   i18n.defaultLocale = "en_US.UTF-8";
   nixpkgs.config.allowUnfree = true;
+  nixpkgs.config.permittedInsecurePackages = [
+    "freeimage-unstable-2021-11-01" # megasync dependency
+  ];
   system.stateVersion = "23.05";
 }

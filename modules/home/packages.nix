@@ -1,8 +1,5 @@
 { inputs, pkgs, ... }: 
 {
-  nixpkgs.config.permittedInsecurePackages = [
-    "freeimage-unstable-2021-11-01" # megasync dependency
-  ];
   home.packages = (with pkgs; [
     inputs.alejandra.defaultPackage.${system}
     bitwise                           # cli tool for bit / hex manipulation
