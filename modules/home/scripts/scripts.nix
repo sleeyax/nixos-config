@@ -7,7 +7,7 @@
   lofi = pkgs.writeScriptBin "lofi" (builtins.readFile ./scripts/lofi.sh);
   
   toggle_blur = pkgs.writeScriptBin "toggle_blur" (builtins.readFile ./scripts/toggle_blur.sh);
-  toggle_oppacity = pkgs.writeScriptBin "toggle_oppacity" (builtins.readFile ./scripts/toggle_oppacity.sh);
+  toggle_opacity = pkgs.writeScriptBin "toggle_opacity" (builtins.readFile ./scripts/toggle_opacity.sh);
   
   maxfetch = pkgs.writeScriptBin "maxfetch" (builtins.readFile ./scripts/maxfetch.sh);
   
@@ -31,7 +31,7 @@ in {
     lofi
   
     toggle_blur
-    toggle_oppacity
+    toggle_opacity
 
     maxfetch
 

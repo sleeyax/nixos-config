@@ -70,8 +70,8 @@
 
       decoration = {
         rounding = 0;
-        # active_opacity = 0.90;
-        # inactive_opacity = 0.90;
+        active_opacity = 0.95;
+        inactive_opacity = 0.95;
         # fullscreen_opacity = 1.0;
 
         blur = {
@@ -299,6 +299,7 @@
         "float,title:^(branchdialog)$"
         "float,title:^(Confirm to replace files)$"
         "float,title:^(File Operation Progress)$"
+        "opacity 1 override 1 override,class:^(firefox)$"
       ];
 
     };
