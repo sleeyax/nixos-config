@@ -4,10 +4,10 @@ let custom = {
     font_size = "15px";
     font_weight = "bold";
     text_color = "#cdd6f4";
-    secondary_accent= "89b4fa";
-    tertiary_accent = "f5f5f5";
-    background = "11111B";
-    opacity = "0.98";
+    secondary_accent= "#89b4fa";
+    tertiary_accent = "#f5f5f5";
+    background = "#11111B";
+    opacity = "1";
 };
 in 
 {
@@ -25,7 +25,7 @@ in
     }
 
     window#waybar {
-        background: none;
+        background: ${custom.background};
     }
 
     #workspaces {
@@ -42,7 +42,7 @@ in
         color: #6c7086;
     }
     #workspaces button.active {
-        color: #b4befe;
+        color: #c73fcc;
     }
 
     #tray, #pulseaudio, #network, #cpu, #memory, #disk, #clock, #battery {
