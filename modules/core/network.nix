@@ -6,6 +6,7 @@
     nameservers = [ "1.1.1.1" ];
     firewall = {
       enable = true;
+      logRefusedPackets = true; # journalctl -kr to see logs
       allowedTCPPorts = [ 22 80 443 59010 59011 53317 ];
       allowedUDPPorts = [ 59010 59011 53317 4501 ];
       # allowedUDPPortRanges = [
