@@ -80,12 +80,12 @@
         format-disconnected = "󰖪 ";
     };
     bluetooth = {
+        format = "󰂯";
         format-on = "󰂯";
-        formatt-off = "󰂲";
-        format-disabled = "";
+        format-disabled = "󰂲";
         format-connected=" {num_connections}";
         tooltip-format-on = "Bluetooth is on";
-        tooltip-format-off = "Bluetooth is off";
+        tooltip-format-disabled = "Bluetooth is off";
         tooltip-format-connected = "{device_enumerate}";
         tooltip-format-enumerate-connected = "{device_alias}\t{device_address}";
     };
