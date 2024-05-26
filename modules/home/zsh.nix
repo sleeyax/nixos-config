@@ -18,6 +18,7 @@
 
       # Utils
       c = "clear";
+      cls = "clear";
       cd = "z";
       tt = "gtrash put";
       cat = "bat";
@@ -26,6 +27,8 @@
       icat = "kitten icat";
       dsize = "du -hs";
       findw = "grep -rl";
+      htop = "btop";
+      neofetch = "maxfetch";
 
       l = "eza --icons  -a --group-directories-first -1"; #EZA_ICON_SPACING=2
       ll = "eza --icons  -a --group-directories-first -1 --no-user --long";
