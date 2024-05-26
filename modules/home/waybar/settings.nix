@@ -23,6 +23,7 @@
         "pulseaudio" 
         "battery"
         "network"
+        "bluetooth"
     ];
     clock= {
         calendar = {
@@ -77,6 +78,16 @@
         tooltip-format = "Connected to {essid} {ifname} via {gwaddr}";
         format-linked = "{ifname} (No IP)";
         format-disconnected = "󰖪 ";
+    };
+    bluetooth = {
+        format-on = "󰂯";
+        formatt-off = "󰂲";
+        format-disabled = "";
+        format-connected=" {num_connections}";
+        tooltip-format-on = "Bluetooth is on";
+        tooltip-format-off = "Bluetooth is off";
+        tooltip-format-connected = "{device_enumerate}";
+        tooltip-format-enumerate-connected = "{device_alias}\t{device_address}";
     };
     tray= {
         icon-size= 20;

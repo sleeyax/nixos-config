@@ -45,7 +45,7 @@ in
         color: #c73fcc;
     }
 
-    #tray, #pulseaudio, #network, #cpu, #memory, #disk, #clock, #battery {
+    #tray, #pulseaudio, #network, #cpu, #memory, #disk, #clock, #battery, #bluetooth {
         font-size: ${custom.font_size};
         color: ${custom.text_color};
     }
@@ -79,6 +79,10 @@ in
         padding-right: 9px;
     }
     #network {
+        padding-left: 9px;
+        padding-right: 15px;
+    }
+    #bluetooth {
         padding-left: 9px;
         padding-right: 15px;
     }
