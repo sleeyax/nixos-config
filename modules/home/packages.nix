@@ -58,6 +58,7 @@
     localsend                         # local file transfer
     megasync
     mullvad-vpn
+    krita                             # simple image editor
 
     # C / C++
     gcc
