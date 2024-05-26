@@ -9,8 +9,10 @@
     margin-left= 0;
     margin-right= 0;
     modules-left= [
-        "custom/launcher" 
+        "custom/launcher"
         "hyprland/workspaces"
+        "custom/weather-geel"
+        "custom/weather-boechout"
     ];
     modules-center= [
         "clock"
@@ -122,6 +124,20 @@
         on-click= "wofi --show drun";
         on-click-right= "pkill wofi || wallpaper-picker"; 
         tooltip= "false";
+    };
+    "custom/weather-geel" = {
+      exec = "weather Geel";
+      return-type = "json";
+      format = "Geel {}";
+      tooltip = true;
+      interval = 3600;
+    };
+    "custom/weather-boechout" = {
+      exec = "weather Boechout";
+      return-type = "json";
+      format = "Boechout {}";
+      tooltip = true;
+      interval = 3600;
     };
   };
 }

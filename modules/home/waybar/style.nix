@@ -31,6 +31,7 @@ in
     #workspaces {
         font-size: 18px;
         padding-left: 15px;
+        padding-right: 15px;
         
     }
     #workspaces button {
@@ -98,6 +99,10 @@ in
         font-weight: ${custom.font_weight};
         padding-left: 10px;
         padding-right: 15px;
+    }
+
+    #custom-weather-geel, #custom-weather-boechout {
+        padding-left: 15px;
     }
   '';
 }
