@@ -57,6 +57,7 @@
     mysql-workbench                   # MySQL client
     localsend                         # local file transfer
     megasync
+    mullvad-vpn
 
     # C / C++
     gcc
