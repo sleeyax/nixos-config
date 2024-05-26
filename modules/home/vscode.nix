@@ -51,6 +51,15 @@
 
       "git.enableSmartCommit" = true;
       "git.confirmSync" = false;
+
+      "gitlens.currentLine.enabled" = false;
+      # disable gitlens taking over CTRL + SHIFT+ G shortcut to navigate to source control
+      "gitlens.keymap" = "none";
+
+      "github.copilot.enable" = {
+        "*" = true;
+        "markdown" = true;
+      };
     };
     # Keybindings
     keybindings = [
