@@ -135,6 +135,7 @@
         "ALT, Return, exec, kitty --title float_kitty"
         "$mainMod SHIFT, Return, exec, kitty --start-as=fullscreen -o 'font_size=16'"
         "$mainMod, B, exec, hyprctl dispatch exec '[workspace 1 silent] firefox'"
+        "$mainMod, K, exec, hyprctl dispatch exec '[workspace 2 silent] code'"
         "$mainMod, Q, killactive,"
         "$mainMod, F, fullscreen, 0"
         "$mainMod SHIFT, F, fullscreen, 1"
@@ -148,7 +149,6 @@
         "$mainMod, E, exec, nemo"
         "$mainMod SHIFT, B, exec, pkill -SIGUSR1 .waybar-wrapped"
         "$mainMod, C ,exec, hyprpicker -a"
-        "$mainMod, G,exec, $HOME/.local/bin/toggle_layout"
         "$mainMod, W,exec, pkill wofi || wallpaper-picker"
         "$mainMod SHIFT, W, exec, vm-start"
 
