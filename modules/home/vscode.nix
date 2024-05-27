@@ -23,7 +23,7 @@
       "window.menuBarVisibility" = "toggle";
       
       "editor.minimap.enabled" = true;
-      "editor.fontLigatures" = true;
+      "editor.fontLigatures" = false;
       "editor.fontSize" = 16;
       "editor.fontFamily" = "'JetBrainsMono Nerd Font', 'SymbolsNerdFont', 'monospace', monospace";
       "editor.formatOnSave" = true;
