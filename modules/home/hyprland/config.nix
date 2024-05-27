@@ -137,7 +137,7 @@
         "$mainMod, T, exec, hyprctl dispatch exec '[workspace 4 silent] teams-for-linux'"
         "$mainMod, R, exec, hyprctl dispatch exec '[workspace 5 silent] remmina'"
         "$mainMod, Return, exec, kitty"
-        "ALT, Return, exec, kitty --title float_kitty"
+        "$mainMod ALT, Return, exec, kitty --title float_kitty"
         "$mainMod SHIFT, Return, exec, kitty --start-as=fullscreen -o 'font_size=16'"
         "$mainMod, Q, killactive,"
         "$mainMod, F, fullscreen, 0"
