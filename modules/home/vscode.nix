@@ -79,6 +79,10 @@
         key = "alt+right";
         command = "workbench.action.navigateForward";
       }
+      {
+        key = "alt+enter";
+        command = "editor.action.quickFix";
+      }
     ];
   };
 }
