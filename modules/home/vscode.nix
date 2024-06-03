@@ -10,6 +10,7 @@
       # Color theme
       catppuccin.catppuccin-vsc
       catppuccin.catppuccin-vsc-icons
+      PKief.material-icon-theme
     ];
     userSettings = {
       "update.mode" = "none";
@@ -39,7 +40,7 @@
 
       "workbench.startupEditor" = "none";
       "workbench.colorTheme" = "Catppuccin Mocha";
-      "workbench.iconTheme" = "catppuccin-mocha";
+      "workbench.iconTheme" = "material-icon-theme";
       "workbench.layoutControl.type" = "menu";
       "workbench.editor.limit.enabled" = true;
       "workbench.editor.limit.value" = 20;
