@@ -59,6 +59,7 @@
     megasync
     mullvad-vpn
     krita                             # simple image editor
+    nmap
 
     # C / C++
     gcc
