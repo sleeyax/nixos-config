@@ -10,7 +10,7 @@
       # Color theme
       catppuccin.catppuccin-vsc
       catppuccin.catppuccin-vsc-icons
-      PKief.material-icon-theme
+      pkief.material-icon-theme
     ];
     userSettings = {
       "update.mode" = "none";
