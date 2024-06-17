@@ -154,6 +154,8 @@
         "$mainMod, C ,exec, hyprpicker -a"
         "$mainMod, W,exec, pkill wofi || wallpaper-picker"
         "$mainMod SHIFT, W, exec, vm-start"
+        "$mainMod, M, exec, hyprctl keyword monitor 'eDP-1,disable'"
+        "$mainMod SHIFT, M, exec, hyprctl keyword monitor 'eDP-1,enable'"
 
         # screenshot
         "$mainMod, S, exec, grimblast --notify --cursor save area ~/Pictures/screenshots/$(date +'%Y-%m-%d-At-%Ih%Mm%Ss').png"
