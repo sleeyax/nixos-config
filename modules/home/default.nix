@@ -5,6 +5,7 @@
     ++ [(import ./btop.nix)]                      # resouces monitor 
     ++ [(import ./cava.nix)]                      # audio visualizer
     ++ [(import ./firefox.nix)]                   # firefox browser
+    ++ [(import ./fuzzel.nix)]                    # launcher
     ++ [(import ./git.nix)]                       # version control
     ++ [(import ./gtk.nix)]                       # gtk theme
     ++ [(import ./hyprland)]                      # window manager
@@ -18,6 +19,5 @@
     ++ [(import ./swaylock.nix)]                  # lock screen
     ++ [(import ./vscode.nix)]                    # vscode
     ++ [(import ./waybar)]                        # status bar
-    ++ [(import ./wofi.nix)]                      # launcher
     ++ [(import ./zsh.nix)];                      # shell
 }

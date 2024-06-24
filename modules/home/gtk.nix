@@ -1,9 +1,9 @@
-{ pkgs, ... }:
+{ pkgs, config, ... }:
 {
   fonts.fontconfig.enable = true;
   home.packages = [
     pkgs.nerdfonts
-    (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+    (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" "Noto" ]; })
     pkgs.twemoji-color-font
     pkgs.noto-fonts-emoji
   ];
@@ -22,13 +22,8 @@
       };
     };
     theme = {
-      name = "Catppuccin-Mocha-Compact-Lavender-Dark";
-      package = pkgs.catppuccin-gtk.override {
-        accents = [ "lavender" ];
-        size = "compact";
-        # tweaks = [ "rimless" ];
-        variant = "mocha";
-      };
+      name = "Dracula";
+      package = pkgs.dracula-theme;
     };
     cursorTheme = {
       name = "Nordzy-cursors";

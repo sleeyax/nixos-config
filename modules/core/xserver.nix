@@ -1,8 +1,10 @@
 { pkgs, username, ... }: 
 {
-  services.xserver = {
-    enable = true;
-    xkb.layout = "be,us";
+  services = {
+    xserver = {
+      enable = true;
+      xkb.layout = "be,us";
+    };
 
     displayManager.autoLogin = {
       enable = true;

@@ -121,8 +121,8 @@
     };
     "custom/launcher"= {
         format= "";
-        on-click= "wofi --show drun";
-        on-click-right= "pkill wofi || wallpaper-picker"; 
+        on-click= "pkill fuzzel || fuzzel";
+        on-click-right= "pkill fuzzel || wallpaper-picker"; 
         tooltip= "false";
     };
     "custom/weather-geel" = {

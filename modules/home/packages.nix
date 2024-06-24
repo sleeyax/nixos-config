@@ -9,6 +9,7 @@
     file                              # Show file information 
     fzf                               # fuzzy finder
     gtt                               # google translate TUI
+    gimp
     gtrash                            # rm replacement, put deleted files in system trash
     hexdump
     jdk17                             # java
@@ -19,6 +20,7 @@
     nix-prefetch-github
     ripgrep                           # grep replacement
     soundwireserver                   # pass audio to android phone
+    tdf                               # cli pdf viewer
     todo                              # cli todo list
     toipe                             # typing test in the terminal
     valgrind                          # c memory analyzer
@@ -32,6 +34,7 @@
     gparted                           # partition manager
     ffmpeg
     imv                               # image viewer
+    killall
     libnotify
 	  man-pages					            	  # extra man pages
     mpv                               # video player

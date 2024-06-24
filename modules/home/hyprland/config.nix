@@ -7,7 +7,8 @@
       exec-once = [
         "systemctl --user import-environment &"
         "hash dbus-update-activation-environment 2>/dev/null &"
-        "dbus-update-activation-environment --systemd &"
+        # "dbus-update-activation-environment --systemd &"
+        "dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP &"
         "nm-applet &"
         "blueman-applet &"
         "wl-clip-persist --clipboard both"
@@ -64,7 +65,7 @@
       };
 
       master = {
-        new_is_master = true;
+      #  new_is_master = true;
         special_scale_factor = 1;
         no_gaps_when_only = false;
       };
@@ -143,7 +144,7 @@
         "$mainMod, F, fullscreen, 0"
         "$mainMod SHIFT, F, fullscreen, 1"
         "$mainMod, Space, togglefloating,"
-        "$mainMod, D, exec, wofi --show drun"
+        "$mainMod, D, exec, pkill fuzzel || fuzzel"
         "$mainMod SHIFT, D, exec, hyprctl dispatch exec '[workspace 4 silent] discord'"
         "$mainMod, Escape, exec, swaylock"
         "$mainMod SHIFT, Escape, exec, shutdown-script"
@@ -152,7 +153,8 @@
         "$mainMod, E, exec, nemo"
         "$mainMod SHIFT, B, exec, pkill -SIGUSR1 .waybar-wrapped"
         "$mainMod, C ,exec, hyprpicker -a"
-        "$mainMod, W,exec, pkill wofi || wallpaper-picker"
+        "$mainMod, G,exec, $HOME/.local/bin/toggle_layout"
+        "$mainMod, W,exec, pkill fuzzel || wallpaper-picker"
         "$mainMod SHIFT, W, exec, vm-start"
         "$mainMod, M, exec, hyprctl keyword monitor 'eDP-1,disable'"
         "$mainMod SHIFT, M, exec, hyprctl keyword monitor 'eDP-1,enable'"
@@ -248,7 +250,7 @@
         "$mainMod, XF86MonBrightnessDown, exec, brightnessctl set 100%-"
 
         # clipboard manager
-        "$mainMod, V, exec, cliphist list | wofi --dmenu | cliphist decode | wl-copy"
+        "$mainMod, V, exec, cliphist list | fuzzel --dmenu | cliphist decode | wl-copy"
       ];
 
       # mouse binding
@@ -270,9 +272,9 @@
         "size 950 600,title:^(float_kitty)$"
         "float,audacious"
         "workspace 8 silent, audacious"
-        "pin,wofi"
-        "float,wofi"
-        "noborder,wofi"
+        # "pin,wofi"
+        # "float,wofi"
+        # "noborder,wofi"
         "tile, neovide"
         "idleinhibit focus,mpv"
         "float,udiskie"
