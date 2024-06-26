@@ -30,6 +30,7 @@
       htop = "btop";
       neofetch = "maxfetch";
       pdf = "tdf";
+      open = "xdg-open";
 
       l = "eza --icons  -a --group-directories-first -1"; #EZA_ICON_SPACING=2
       ll = "eza --icons  -a --group-directories-first -1 --no-user --long";

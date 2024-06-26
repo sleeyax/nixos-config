@@ -32,5 +32,5 @@
   nixpkgs.config.permittedInsecurePackages = [
     "freeimage-unstable-2021-11-01" # megasync dependency
   ];
-  system.stateVersion = "23.05";
+  system.stateVersion = "24.05";
 }

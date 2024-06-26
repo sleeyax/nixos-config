@@ -23,6 +23,8 @@
   ascii = pkgs.writeScriptBin "ascii" (builtins.readFile ./scripts/ascii.sh);
 
   weather = pkgs.writeScriptBin "weather" (builtins.readFile ./scripts/weather.sh);
+  
+  record = pkgs.writeScriptBin "record" (builtins.readFile ./scripts/record.sh);
 in {
   home.packages = with pkgs; [
     wall-change
@@ -49,5 +51,7 @@ in {
     ascii
 
     weather
+    
+    record
   ];
 }

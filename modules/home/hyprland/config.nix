@@ -17,7 +17,7 @@
         "hyprctl setcursor Nordzy-cursors 22 &"
         "poweralertd &"
         "waybar &"
-        "mako &"
+        "swaync &"
         "wl-paste --watch cliphist store &"
       ];
 
@@ -65,7 +65,7 @@
       };
 
       master = {
-      #  new_is_master = true;
+        new_status = "master";
         special_scale_factor = 1;
         no_gaps_when_only = false;
       };
@@ -162,8 +162,8 @@
         "$mainMod SHIFT, Tab, workspace, m-1"
 
         # screenshot
-        "$mainMod, S, exec, grimblast --notify --cursor save area ~/Pictures/screenshots/$(date +'%Y-%m-%d-At-%Ih%Mm%Ss').png"
-        "$mainMod SHIFT, S, exec, grimblast --notify --cursor copy area"
+        "$mainMod, S, exec, grimblast --notify --cursor --freeze save area ~/Pictures/screenshots/$(date +'%Y-%m-%d-At-%Ih%Mm%Ss').png"
+        "$mainMod SHIFT, S, exec, grimblast --notify --cursor --freeze copy area"
 
         # switch focus
         "$mainMod, left, movefocus, l"
@@ -295,6 +295,9 @@
         "opacity 1.0 override 1.0 override, title:^(.*mpv.*)$"
         "idleinhibit focus, class:^(mpv)$"
         "idleinhibit fullscreen, class:^(firefox)$"
+        "float,class:^(zenity)$"
+        "center,class:^(zenity)$"
+        "size 850 500,class:^(zenity)$"
         "float,class:^(pavucontrol)$"
         "float,class:^(SoundWireServer)$"
         "float,class:^(.sameboy-wrapped)$"

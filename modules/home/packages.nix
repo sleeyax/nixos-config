@@ -3,12 +3,14 @@
   home.packages = (with pkgs; [
     inputs.alejandra.defaultPackage.${system}
     bitwise                           # cli tool for bit / hex manipulation
+    evince                            # gnome pdf viewer
     eza                               # ls replacement
     entr                              # perform action when file change
     fd                                # find replacement
     file                              # Show file information 
     fzf                               # fuzzy finder
     gtt                               # google translate TUI
+    gifsicle                          # gif utility
     gimp
     gtrash                            # rm replacement, put deleted files in system trash
     hexdump
