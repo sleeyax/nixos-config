@@ -14,7 +14,7 @@
     ];
     userSettings = {
       "update.mode" = "none";
-      "extensions.autoUpdate" = false; # This stuff fixes vscode freaking out when theres an update
+      "extensions.autoUpdate" = true;
       "files.autoSave" = "onWindowChange";
       "terminal.integrated.fontFamily" = "'JetBrainsMono Nerd Font', 'SymbolsNerdFont'";
       "catppuccin.accentColor" = "lavender";
