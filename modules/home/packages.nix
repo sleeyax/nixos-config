@@ -60,6 +60,7 @@
     # logseq                          # PKM
     remmina                           # remote desktop client
     mysql-workbench                   # MySQL client
+    mongodb-tools                     # Mongo DB tools
     localsend                         # local file transfer
     megasync
     mullvad-vpn
