@@ -67,6 +67,7 @@
     krita                             # simple image editor
     nmap
     rustup
+    chromium
 
     # C / C++
     gcc
