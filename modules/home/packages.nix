@@ -66,6 +66,7 @@
     mullvad-vpn
     krita                             # simple image editor
     nmap
+    rustup
 
     # C / C++
     gcc
