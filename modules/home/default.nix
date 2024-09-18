@@ -15,6 +15,7 @@
     ++ [(import ./nvim.nix)]                      # neovim editor
     ++ [(import ./packages.nix)]                  # other packages
     ++ [(import ./scripts/scripts.nix)]           # personal scripts
+    ++ [(import ./spicetify.nix)]                 # spotify client
     ++ [(import ./starship.nix)]                  # shell prompt
     ++ [(import ./swaylock.nix)]                  # lock screen
     ++ [(import ./vscode.nix)]                    # vscode

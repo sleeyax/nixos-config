@@ -9,8 +9,7 @@
     spice-protocol
     win-virtio
     win-spice
-    gnome.adwaita-icon-theme
-    dive # look into docker image layers
+    adwaita-icon-theme
   ];
 
   virtualisation = {

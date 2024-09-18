@@ -3,6 +3,7 @@
   home.packages = (with pkgs; [
     inputs.alejandra.defaultPackage.${system}
     bitwise                           # cli tool for bit / hex manipulation
+    cbonsai                           # terminal screensaver
     evince                            # gnome pdf viewer
     eza                               # ls replacement
     entr                              # perform action when file change
@@ -17,9 +18,11 @@
     jdk17                             # java
     lazygit
     libreoffice
-    cinnamon.nemo-with-extensions     # file manager
+    nautilus     # file manager
     nitch                             # systhem fetch util
     nix-prefetch-github
+    pipes                             # terminal screensaver
+    prismlauncher                     # minecraft launcher
     ripgrep                           # grep replacement
     soundwireserver                   # pass audio to android phone
     tdf                               # cli pdf viewer
@@ -27,8 +30,8 @@
     toipe                             # typing test in the terminal
     valgrind                          # c memory analyzer
     yazi                              # terminal file manager
-    youtube-dl
-    gnome.zenity
+    yt-dlp-light
+    zenity
     winetricks
     wineWowPackages.wayland
     bleachbit                         # cache cleaner
