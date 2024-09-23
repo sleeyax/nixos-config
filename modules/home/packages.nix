@@ -60,7 +60,7 @@
     keepassxc                         # password manager
     teams-for-linux                   # Microsoft Teams
     globalprotect-openconnect         # GlobalProtect VPN
-    # logseq                          # PKM
+    logseq                            # PKM
     remmina                           # remote desktop client
     mysql-workbench                   # MySQL client
     mongodb-tools                     # Mongo DB tools
