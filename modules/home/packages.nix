@@ -71,6 +71,7 @@
     nmap
     rustup
     chromium
+    youtube-music
 
     # C / C++
     gcc
