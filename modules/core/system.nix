@@ -30,6 +30,7 @@
   nixpkgs.config.allowUnfree = true;
   nixpkgs.config.permittedInsecurePackages = [
     "freeimage-unstable-2021-11-01" # megasync dependency
+     "electron-27.3.11"
   ];
   system.stateVersion = "24.05";
 }
