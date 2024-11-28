@@ -3,7 +3,7 @@
     [(import ./audacious/audacious.nix)]       # music player
     ++ [(import ./bat.nix)]                       # better cat command
     ++ [(import ./btop.nix)]                      # resouces monitor 
-    ++ [(import ./cava.nix)]                      # audio visualizer
+   #  ++ [(import ./cava.nix)]                      # audio visualizer
     ++ [(import ./firefox.nix)]                   # firefox browser
     ++ [(import ./fuzzel.nix)]                    # launcher
     ++ [(import ./git.nix)]                       # version control
