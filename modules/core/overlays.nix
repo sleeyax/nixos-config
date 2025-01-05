@@ -1,7 +1,7 @@
 { config, pkgs, lib, inputs, ... }:
 {
   nixpkgs.overlays = [
-    inputs.nur.overlay
+    inputs.nur.overlays.default
     # Fixes issues with copy + paste not working in Electron applications on Wayland.
     (final: prev: {
       vscode = prev.vscode.override {
