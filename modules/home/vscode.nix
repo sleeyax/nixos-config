@@ -19,6 +19,7 @@
       "terminal.integrated.fontFamily" = "'JetBrainsMono Nerd Font', 'SymbolsNerdFont'";
       "catppuccin.accentColor" = "lavender";
       "vsicons.dontShowNewVersionMessage" = true;
+      "keyboard.dispatch" = "keyCode";
       
       "window.titleBarStyle" = "custom"; # needed otherwise vscode crashes, see https://github.com/NixOS/nixpkgs/issues/246509
       "window.menuBarVisibility" = "toggle";
