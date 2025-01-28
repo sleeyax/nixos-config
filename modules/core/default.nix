@@ -14,5 +14,6 @@
     ++ [ (import ./user.nix) ]
     ++ [ (import ./wayland.nix) ]
     ++ [ (import ./virtualization.nix) ]
-    ++ [ (import ./overlays.nix) ];
+    ++ [ (import ./overlays.nix) ]
+    ++ [ (import ./appimage.nix) ];
 }
