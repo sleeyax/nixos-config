@@ -66,7 +66,8 @@
     mongodb-tools                     # Mongo DB tools
     localsend                         # local file transfer
     megasync
-    mullvad-vpn
+    # https://github.com/NixOS/nixpkgs/issues/385996
+    # mullvad-vpn
     krita                             # simple image editor
     nmap
     rustup

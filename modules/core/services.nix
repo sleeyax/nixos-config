@@ -7,7 +7,7 @@
     dbus.enable = true;
     fstrim.enable = true;
     globalprotect.enable = true;
-    mullvad-vpn.enable = true;
+    # mullvad-vpn.enable = true;
   };
   services.logind.extraConfig = ''
     # don’t shutdown when power button is short-pressed
